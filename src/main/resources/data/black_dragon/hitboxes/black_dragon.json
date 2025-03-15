@@ -1,0 +1,258 @@
+{
+	"elements": [
+		{
+			"name": "head1",
+			"pos": [5, 261, 138],
+			"width": 48,
+			"height": 48,
+			"ref": "head1_hitbox"
+		},
+		{
+			"name": "head2",
+			"pos": [5, 272, 98],
+			"width": 48,
+			"height": 48,
+			"ref": "head2_hitbox"
+		},
+		{
+			"name": "neck1",
+			"pos": [5, 260, 52],
+			"width": 40,
+			"height": 48,
+			"ref": "neck1_hitbox"
+		},
+		{
+			"name": "neck2",
+			"pos": [5, 211, 47],
+			"width": 40,
+			"height": 48,
+			"ref": "neck2_hitbox"
+		},
+		{
+			"name": "neck3",
+			"pos": [5, 164, 60],
+			"width": 40,
+			"height": 48,
+			"ref": "neck3_hitbox"
+		},
+		{
+			"name": "body1",
+			"pos": [5, 119, 29],
+			"width": 80,
+			"height": 60,
+			"ref": "body1_hitbox"
+		},
+		{
+			"name": "body2",
+			"pos": [5, 91, -15],
+			"width": 80,
+			"height": 60,
+			"ref": "body2_hitbox"
+		},
+		{
+			"name": "body3",
+			"pos": [5, 51, -76],
+			"width": 80,
+			"height": 60,
+			"ref": "body3_hitbox"
+		},
+		{
+			"name": "feet11",
+			"pos": [-52, 0, 126],
+			"width": 32,
+			"height": 16,
+			"ref": "feet11_hitbox"
+		},
+		{
+			"name": "feet21",
+			"pos": [62, 22, 94],
+			"width": 32,
+			"height": 16
+		},
+		{
+			"name": "feet31",
+			"pos": [-52, 8, -29],
+			"width": 32,
+			"height": 16
+		},
+		{
+			"name": "feet41",
+			"pos": [61, 8, -29],
+			"width": 32,
+			"height": 16
+		},
+		{
+			"name": "feet12",
+			"pos": [-52, 0, 95],
+			"width": 32,
+			"height": 16,
+			"ref": "feet12_hitbox"
+		},
+		{
+			"name": "feet22",
+			"pos": [62, 37, 70],
+			"width": 32,
+			"height": 16
+		},
+		{
+			"name": "feet32",
+			"pos": [-52, 8, -61],
+			"width": 32,
+			"height": 16
+		},
+		{
+			"name": "feet42",
+			"pos": [61, 8, -61],
+			"width": 32,
+			"height": 16
+		},
+		{
+			"name": "feet13",
+			"pos": [-52, 16, 86],
+			"width": 32,
+			"height": 32,
+			"ref": "feet13_hitbox"
+		},
+		{
+			"name": "feet23",
+			"pos": [62, 47, 50],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "feet33",
+			"pos": [-52, 25, -54],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "feet43",
+			"pos": [62, 25, -56],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "feet14",
+			"pos": [-52, 49, 67],
+			"width": 32,
+			"height": 32,
+			"ref": "feet14_hitbox"
+		},
+		{
+			"name": "feet24",
+			"pos": [62, 71, 28],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "feet34",
+			"pos": [-52, 47, -45],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "feet44",
+			"pos": [61, 47, -45],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "feet15",
+			"pos": [-52, 79, 49],
+			"width": 32,
+			"height": 32,
+			"ref": "feet15_hitbox"
+		},
+		{
+			"name": "feet25",
+			"pos": [64, 97, 19],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "feet351",
+			"pos": [-52, 45, -71],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "feet352",
+			"pos": [-52, 60, -107],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "feet353",
+			"pos": [-52, 82, -66],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "feet354",
+			"pos": [-52, 91, -97],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "feet451",
+			"pos": [61, 45, -71],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "feet452",
+			"pos": [61, 60, -107],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "feet453",
+			"pos": [61, 82, -66],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "feet454",
+			"pos": [61, 91, -97],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "feet16",
+			"pos": [-52, 114, 35],
+			"width": 32,
+			"height": 32,
+			"ref": "feet16_hitbox"
+		},
+		{
+			"name": "feet26",
+			"pos": [62, 130, 47],
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "wing11",
+			"pos": [-37, 151, -7],
+			"width": 16,
+			"height": 32
+		},
+		{
+			"name": "wing12",
+			"pos": [-54, 155, -7],
+			"width": 16,
+			"height": 32
+		},
+		{
+			"name": "wing21",
+			"pos": [37, 151, -7],
+			"width": 16,
+			"height": 32
+		},
+		{
+			"name": "wing22",
+			"pos": [66, 154, -7],
+			"width": 16,
+			"height": 32
+		}
+	]
+}

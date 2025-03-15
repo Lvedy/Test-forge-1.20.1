@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.lvedy.bdmod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "black_dragon.refmap.json",
+  "mixins": [
+    "ForgeMultiPartMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
