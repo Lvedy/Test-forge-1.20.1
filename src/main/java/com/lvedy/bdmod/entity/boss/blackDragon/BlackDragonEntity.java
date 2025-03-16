@@ -12,7 +12,9 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.level.Level;
+import net.minecraftforge.entity.PartEntity;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 import software.bernie.geckolib.animatable.GeoEntity;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
 import software.bernie.geckolib.core.animation.AnimatableManager;
@@ -41,6 +43,12 @@ public class BlackDragonEntity extends Mob implements GeoEntity, GeckoLibMultiPa
             this.testTime -= 1;
         if(this.testTime<=0)
             this.test = false;
+        if(this.getParts() != null) {
+            for (@Nullable PartEntity<?> part:this.getParts())
+                if (part != null) {
+                    //part.tick();
+                }
+        }
         super.aiStep();
     }
 
@@ -58,7 +66,7 @@ public class BlackDragonEntity extends Mob implements GeoEntity, GeckoLibMultiPa
 
     @Override
     public boolean partHurt(MultiPart<BlackDragonEntity> multiPart, @NotNull DamageSource damageSource, float v) {
-        this.testTime = 60;
+        this.testTime = 55;
         this.test = true;
         return true;
     }
@@ -80,13 +88,13 @@ public class BlackDragonEntity extends Mob implements GeoEntity, GeckoLibMultiPa
     }
 
     @Override
-    public boolean canCollideWith(Entity pEntity) {
-        return false;
+    public boolean canBeCollidedWith() {
+        return true;
     }
 
     @Override
     public boolean isPickable() {
-        return false;
+        return true;
     }
 
     @Override
@@ -94,9 +102,9 @@ public class BlackDragonEntity extends Mob implements GeoEntity, GeckoLibMultiPa
         return false;
     }
 
-    @Override
-    protected void doPush(Entity p_20971_) {
-    }
+/*    @Override
+    protected void doPush(Entity entity) {
+    }*/
 
     @Override
     public void knockback(double strength, double xRatio, double zRatio) {

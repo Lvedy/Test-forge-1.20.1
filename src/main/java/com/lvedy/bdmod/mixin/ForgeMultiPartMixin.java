@@ -14,8 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(ForgeMultiPart.ForgeMultiPartFactory.class)
 public class ForgeMultiPartMixin {
-
-    @Inject(method = "create", at = @At("RETURN"), cancellable = true)
+    @Inject(method = "create", at = @At("RETURN"), cancellable = true, remap = false)
     private <T extends Mob & MultiPartEntity<T>> void injected(T parent, HitboxData hitboxData, CallbackInfoReturnable<MultiPart<T>> cir) {
         if (parent instanceof BlackDragonEntity) {
             cir.setReturnValue(new BlackDragonPart<>(parent, hitboxData));

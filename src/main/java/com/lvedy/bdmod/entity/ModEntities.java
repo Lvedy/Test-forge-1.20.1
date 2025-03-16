@@ -16,7 +16,7 @@ public class ModEntities {
 
     public static final RegistryObject<EntityType<BlackDragonEntity>> BLACKDRAGON =
             ENTITY_TYPES.register("black_dragon", () -> EntityType.Builder.of(BlackDragonEntity::new, MobCategory.CREATURE)
-                    .sized(0f, 0f).build(new ResourceLocation(BDMod.MODID,"black_dragon").toString()));
+                    .sized(8f, 8f).build(new ResourceLocation(BDMod.MODID,"black_dragon").toString()));
 
 
     public static void register(IEventBus eventBus) {
